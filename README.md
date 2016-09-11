@@ -26,20 +26,6 @@ $ docker-compose up
 
 ### ~~Execution~~
 
-Running mongodb instance
-
-```sh
-$ docker run -P -d --name mongodb mongo
-```
-
-Check if it's up & running and keep the forwarded port handy.
-
-```sh
-$ docker ps
-```
-
-### ~~Execution~~
-
 Build a docker image for the application
 
 ```sh

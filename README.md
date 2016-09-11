@@ -2,6 +2,10 @@
 Implementation of Microservice architecture
 ===========================================
 
+### Docker Image
+
+Download the docker image from here: [darkdefender27/learner-service](docker.io/darkdefender27/learner-service)
+
 Clone the remote repository into a local directory.
 
 ```sh

@@ -1,6 +1,6 @@
-=====================================================================
-Microservice implementation using Spring Boot & Spring Data (MongoDB)
-=====================================================================
+===========================================
+Implementation of Microservice architecture
+===========================================
 
 Clone the remote repository into a local directory.
 
@@ -17,6 +17,8 @@ $ cd Learner/
 * On Mac/Windows refer: [Getting started with Docker on non-Linux machines] (https://docs.docker.com/machine/get-started/)
 
 
+### Execution
+
 Running mongodb instance
 
 ```sh
@@ -29,12 +31,11 @@ Check if it's up & running and keep the forwarded port handy.
 $ docker ps
 ```
 
-
 Running the application
 
 ```sh
 $ mvn clean install
-$ java -Dspring.data.mongodb.uri=mongodb://192.168.99.100:32768/studentprofile -jar target/learner-service-0.0.1-SNAPSHOT.jar
+$ java -Dspring.data.mongodb.uri=mongodb://<DOCKER_HOST>:<MONGODB_PORT>/<DB_NAME> -jar target/learner-service-0.0.1-SNAPSHOT.jar
 ````
 
 

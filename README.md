@@ -17,7 +17,7 @@ $ cd Learner/
 * On Mac/Windows refer: [Getting started with Docker on non-Linux machines] (https://docs.docker.com/machine/get-started/)
 
 
-### Execution (Deprecated)
+### ~~Execution~~
 
 Running mongodb instance
 
@@ -70,10 +70,8 @@ CONTAINER ID        IMAGE                              COMMAND                  
 ### License
 
 GNU GPL Version 3, 29 June 2007.
-Please refer this link
-[GNU GPL 3.0 License] (http://www.gnu.org/licenses/gpl-3.0.txt)
-for detailed description.
+Please refer this link [GNU GPL 3.0 License] (http://www.gnu.org/licenses/gpl-3.0.txt) for detailed description.
 
 
 
-:smiling_imp: **Free Software, Hell Yeah!**
+**Free Software, Hell Yeah!** :facepunch: 

@@ -1,0 +1,8 @@
+learner-service:
+ build: learner-service
+ ports:
+  - "8080"
+ links:
+  - mongodb
+mongodb:
+ image: mongo

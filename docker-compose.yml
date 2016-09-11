@@ -1,5 +1,5 @@
 learner-service:
- build: learner-service
+ build: .
  ports:
   - "8080"
  links:

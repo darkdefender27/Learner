@@ -17,6 +17,13 @@ $ cd Learner/
 * On Mac/Windows refer: [Getting started with Docker on non-Linux machines] (https://docs.docker.com/machine/get-started/)
 
 
+### Execution (using docker-compose)
+
+```sh
+$ docker-compose up
+```
+
+
 ### ~~Execution~~
 
 Running mongodb instance
@@ -31,7 +38,7 @@ Check if it's up & running and keep the forwarded port handy.
 $ docker ps
 ```
 
-### Execution
+### ~~Execution~~
 
 Build a docker image for the application
 
@@ -74,4 +81,4 @@ Please refer this link [GNU GPL 3.0 License] (http://www.gnu.org/licenses/gpl-3.
 
 
 
-**Free Software, Hell Yeah!** :facepunch: 
+**Free Software, Hell Yeah!** :facepunch:

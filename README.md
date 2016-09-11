@@ -22,7 +22,7 @@ $ cd Learner/
 Running mongodb instance
 
 ```sh
-$ docker run -P -d --name=mongodb mongo
+$ docker run -P -d --name mongodb mongo
 ```
 
 Check if it's up & running and keep the forwarded port handy.
